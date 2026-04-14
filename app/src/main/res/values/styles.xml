@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AcadMate.Input" parent="">
+        <item name="android:background">@drawable/bg_field_surface</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="Widget.AcadMate.MaterialButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Widget.AcadMate.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="titleTextAppearance">@style/TextAppearance.AcadMate.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.AcadMate.Toolbar.Subtitle</item>
+    </style>
+
+    <style name="TextAppearance.AcadMate.Toolbar.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="TextAppearance.AcadMate.Toolbar.Subtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/toolbar_subtitle</item>
+    </style>
+
+    <style name="ThemeOverlay.AcadMate.Toolbar.Popup" parent="ThemeOverlay.Material3.Light">
+        <item name="colorSurface">@color/bg_surface</item>
+        <item name="android:colorBackground">@color/bg_surface</item>
+    </style>
+
+    <style name="ThemeOverlay.AcadMate.Toolbar.Main" parent="ThemeOverlay.Material3.Dark.ActionBar">
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>
+

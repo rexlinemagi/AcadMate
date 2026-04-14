@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary">#4F46E5</color>
+    <color name="brand_primary_dark">#4338CA</color>
+    <color name="brand_accent">#06B6D4</color>
+    <color name="bg_main">#F8FAFC</color>
+    <color name="bg_surface">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="border_soft">#E2E8F0</color>
+    <color name="success">#16A34A</color>
+    <color name="warning">#EA580C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar_subtitle">#E0E7FF</color>
+</resources>
